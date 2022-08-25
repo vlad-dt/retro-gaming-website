@@ -1,0 +1,524 @@
+*{
+	font-family:"Press Start 2P";
+	color: #3cf3fc;
+}
+
+body, html{
+	margin: 0px;
+	min-width: 1200px; 
+	background-color: #090930;
+}
+
+.page{
+	min-height: 100%;
+	background-color: #090930;
+}
+
+.header{
+	background-color: black;
+	box-shadow: 0 3px 15px #589dff;
+	height: 150px;
+	margin-bottom: 25px;
+}
+
+.container{
+	width: 1200px;
+	background-color: #090930;
+	margin: auto;
+}
+
+.container2{
+	float: left;
+	line-height: 22px;
+}
+.game-container{
+	width: 400px;
+	background-color: #090930;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: auto;
+	float: left;
+}
+
+.logo{
+	margin: 10px 30px 10px 0px; 
+	float: left;
+}
+
+.logo img{
+	height: 135px;
+}
+
+.nav{
+	float:left;
+	height: 50px;
+	width: 1035px;
+	margin-top: 90px;
+}
+
+.nav ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+}
+
+.nav ul li{
+	float: left;
+}
+
+.nav ul li a{
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 45px;
+	padding: 0px 18px;
+	text-decoration: none;
+	text-transform: lowercase;
+	display: block;
+	border-bottom: 5px solid transparent; /*submeniu - pastreaza dimensiunea si nu impinge textul in jos*/
+}
+
+.nav ul li ul{
+	position: absolute;
+	top: 135px;
+	padding-top: 20px;
+	border-bottom: 1px solid #181886;
+	display: none;
+	z-index: 1;
+}
+
+.nav ul li ul li {
+	float: none;
+	border-left: 1px solid #181886;
+	border-right: 1px solid #181886;
+	background-color: #090930;
+}
+
+.nav ul li ul li:first-child{
+	border-top: 1px solid #181886;
+}
+
+.nav ul li a:hover{
+	border-bottom: 5px dashed #e81237;
+}
+
+.nav ul li:hover ul{
+	display: block;
+}
+
+.activ {
+	color:#e81237;
+}
+
+.nav ul li a.activ{
+	border-bottom: 5px dashed #e81237;
+}
+
+
+
+
+/* --------------GAMES SECTION----------------*/
+
+.game-picture{
+	max-width: 480px;
+	float: left;
+	padding: 0 10px;
+	position: relative;
+	
+}
+
+.img-picture-vertical{
+	max-width: 350px;
+	border-radius: 30% 70% 30% 70%;
+	border: 3px dashed red;	
+	transition: 0.6s;
+}
+
+.img-picture{
+	max-width: 430px;
+	border-radius: 70% 50% 70% 50%;
+	border: 3px dashed red;	
+	transition: 0.6s;
+}
+
+
+.img-picture:hover{
+	max-width: 430px;
+	border-radius: 0 0 0 0;
+	border: 3px dashed yellow;	
+	transition: 0.6s;
+	opacity: 0.7;
+}
+
+.img-picture-vertical:hover{
+	max-width: 350px;
+	border-radius: 0 0 0 0;
+	border: 3px dashed yellow;	
+	transition: 0.6s;
+	opacity: 0.7;
+}
+
+
+.game-description-vertical{
+	max-width: 390px;
+	float: left;
+	margin: 0 10px;
+	padding: 0 10px;
+	text-align: justify;
+}
+
+
+.game-description{
+	max-width: 700px;
+	float: left;
+	margin: 0 10px;
+	padding: 0 10px;
+}
+
+.game-description  > h2{
+	color: yellow;
+}
+
+.game-description-vertical > h2{
+	color: yellow;
+}
+.game-button{
+	border: 3px dashed #e81237;	
+	display: inline-block;
+	padding: 10px;
+	font-size: 10px;
+	
+}
+
+.game-button:hover, .game-button:hover a {
+	background-color: #ffff20;
+	color: black;
+	cursor:pointer;
+}
+.game-button a{
+	text-decoration: none;
+}
+
+.game-button-vertical{
+	margin-left: 60px;
+}
+
+#sonic{
+	float: left;
+	line-height: 22px;
+}
+
+#mario {
+	margin-top: 70px;
+	line-height: 22px;
+}
+
+.end-page{
+	clear:both;
+	margin-bottom: 100px;
+}
+
+/*----------TUTORIALS SECTION----------*/
+.pacman{
+	width: 800px;
+	float: left;
+	padding-top: 45px;
+}
+
+.pacman-reverse{
+	width: 800px;
+	float: right;
+	padding-top: 45px;
+}
+.whitespace{
+	width:800px;
+	
+}
+.dots{
+	width:400px;
+	float: left;
+}
+
+.dots img{
+	height: 200px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 60px;
+	
+}
+.whitespace {
+    width: 800px;
+    height: 250px;
+    float: left;
+}
+
+.dots2{
+	width:1100px;
+	float: left;
+}
+
+.dots2 img{
+	height: 200px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 60px;
+	
+}
+.instruction1{
+	padding-top: 65px;
+}
+
+.instructions2{
+	width:392px;
+	float:left;
+	padding-top: 40px;
+}
+
+.instructions3{
+	float:left;
+	margin-bottom: 100px;
+}
+
+.container h1{
+	font-size: 250%;
+	text-align: center;
+	margin-top: 70px;
+	font-weight: bold;
+	color: white;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+/*--------CONTACT US SECTION---------*/
+
+.location{
+	margin-bottom:50px;
+}
+
+ h1.location-contact {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contact-us-form{
+	width:600px;
+	float:left;
+	
+}
+.contact-us-form h2{
+	text-align: center;
+	line-height: 50px;
+}
+
+form{
+	display:block;
+}
+
+label{
+	display:block;
+	padding-bottom: 15px;
+	line-height: 15px;
+	
+}
+
+.about-us-info > h2.socials-space{
+	margin-top:60px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	background-color:#2f2f87;
+	padding: 10px;
+	border-color: #1b1b4e;
+	color:white;
+}
+
+input[type="text"], input[type="email"]{
+	height: 45px;
+}
+
+input[type="submit"], input[type="reset"] {
+	background-color:  #2424a8;
+	border: 3px dashed white;
+	padding:7px;
+	color: yellow;
+	font-size: 18px;
+	width: 125px;
+	margin: 10px 0 10px 30px;
+}
+
+input[type="submit"]{
+	margin-left: 140px
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+	border: 3px dashed red;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+/*------------------HOMEPAGE------------------*/
+.hero-banner {
+    box-shadow: 0 3px 45px #ff00a2;
+	width: 1200px;
+    height: 200px;
+}
+
+.tv-screen {
+    margin-top: 5%;
+    width: 100%;
+	text-align:center;
+}
+
+.tv-screen h2{
+	font-size: 200%;
+}
+.warrior{
+	width:300px;
+	margin-top:50px;
+	float: left;
+}
+
+.warrior img{
+	width:250px;
+	height: 276px;
+    padding-left: 17px;
+}
+.sonic-character {
+    margin-top: 20px;
+}
+
+.warrior h2{
+	font-size: 30px;
+	color:white;
+	text-align:center;
+}
+.warrior .game-button{
+	margin-top: 20px;
+	margin-left: 36px;
+}
+
+.intro-text, .gamepad{
+	float: left;
+    margin-top: 67px;
+    margin-left: 30px;
+    margin-bottom: 49px;
+
+}
+
+.intro-text a{
+	text-decoration: none;
+	color:#22898e;
+}
+
+.intro-text a:hover{
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	color:white;
+}
+
+.gamepad {
+    width: 550px;
+	
+}
+.gamepad img{
+	width: 75%;
+    margin-left: 90px;
+	border: 0px solid transparent;
+	border-radius: 20%;
+}
+
+.gamepad img:hover{
+	border: 0px dashed white;
+	cursor: pointer;
+	box-shadow: 0 3px 45px #ffffff;
+	background-color: rgba(255, 255, 255, 0.434);;
+}
+
+.intro-text {
+    width: 550px;
+	
+}
+
+.intro-text p{
+	font-size: 20px;
+	font-style: justify;
+}
+
+.intro-text p::first-letter{
+	font-size: 350%;
+    float: left; 
+    margin-right: 5px;
+	color: red;
+	
+}
+/*--------------ABOUT US SECTION-------------*/
+
+.about-us-info{
+	width:500px;
+	float:left;
+	padding-left: 50px;
+}
+
+.about-us-info h2{
+	margin-top:38px;
+}
+.about-us-info ul {
+    padding: 0;
+    list-style-position: inside;
+}
+
+.about-us-info li, a{
+	color:white;
+	line-height: 30px;
+}
+
+.about-us-info ul a {
+	text-decoration: none
+}
+
+.about-us-info ul a:hover {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+.social-media a{
+	text-decoration: none
+}
+
+.social-media a:hover{
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+
+.social-media i{
+	font-size: 25px;
+	margin-right: 5px;
+	color: white;
+}
+
+.social-media li{
+	list-style-type: none;
+}
+
+
+.iframe-glow{
+	box-shadow: 0 3px 45px #ff00a2;
+}
+
+
+/*-------------------FOOTER------------------*/
+.footer{
+	box-shadow: 0 -3px 6px #ff00a2;
+	height: 40px;
+	padding-top: 5px;
+	font-size: 11px;
+	text-align: center;
+	font-weight: bold;
+	background-color:#090930;
+	clear: both;
+}
+
+/*-------------------END FOOTER------------------*/
+
